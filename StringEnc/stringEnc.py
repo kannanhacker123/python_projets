@@ -68,7 +68,7 @@ def encode_string(converted_str):
     return encoded_str
 
 # Test the conversion and encoding functions
-test_str = "how to hack instagram"
+test_str = input("Enter a string: ")
 # Debug prints
 converted = convert_string(test_str)    
 print("password before converting: ", test_str)
